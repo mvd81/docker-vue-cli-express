@@ -9,7 +9,7 @@ Fresh Docker setup to use `Vue Cli` and `Express` as webserver
 ## Installation
 
 * Clone this repo
-* Download the node packages with `docker run --rm -v $(pwd):/app -w /app node:lts-alpine npm install`
+* Download the node packages with `npm install1` or if you don't have installed node on your machine,  `docker run --rm -v $(pwd):/app -w /app node:lts-alpine npm install`
 * In the root of this project run `dcoker-compose up`
 
 ## Build prject
