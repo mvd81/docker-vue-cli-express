@@ -1,6 +1,6 @@
-# app
+# Docker with Vue-cli and Express
 
-Setup `Vue-cli` with `express js` as webserver
+Fresh Docker setup to use `Vue Cli` and `Express` a webserver 
 
 ## Requirements
 
