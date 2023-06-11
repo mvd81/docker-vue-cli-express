@@ -1,0 +1,22 @@
+version: "3"
+services:
+  vuecli:
+    image: node:lts-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports:
+      - 8080:8080
+    #command: ["npm", "run", "serve"]
+    command: ["npm", "run", "build"]
+  express:
+    build:
+      context: .
+      dockerfile: Dockerfile.express
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports:
+      - 3000:3000
+    depends_on:
+      - vuecli
