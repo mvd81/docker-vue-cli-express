@@ -13,6 +13,6 @@ Fresh Docker setup to use `Vue Cli` and `Express` as webserver
 * In the root of this project run `dcoker-compose up`
 * Now you can create your app, visit `http://localhost:8080` to see your app in the browser
 
-## Build prject
+## Build project
 
 * Open `docker-compose.yml` and uncomment the `build` section
